@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alexandra</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Logo</div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>I'm Alexandra.<br>Glad to see you!</h1>
+            <p>I'm a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <div class="social-links">
+                <p>Let's Connect</p>
+                <div class="icons">
+                    <a href="https://twitter.com" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg">
+                    </a>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub">
+                    </a>
+                    <a href="https://dribbble.com" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Dribbble_logo.png" alt="Dribbble">
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <div class="overlay-menu" id="overlayMenu">
+        <div class="menu-close" onclick="toggleMenu()">×</div>
+        <nav>
+            <ul>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <script src="menu.js"></script>
+</body>
+</html>

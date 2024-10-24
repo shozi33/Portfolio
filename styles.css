@@ -1,0 +1,38 @@
+.head
+{
+    background-color:aqua;
+    height: 200px;
+    width: 1000px;
+    border: 1px;;
+    font-size: 12
+    ;
+}
+.personal
+{
+    height: 50px;
+    width: 1000px;
+    background-color: skyblue;
+
+    }
+    .email
+    {
+ height: 40px;
+ width: 30px;   
+ text-align: left;
+    }
+.phone{
+    height: 40px;
+    width: 30px; 
+}
+.location{
+    height: 40px;
+    width: 30px; 
+}
+.calender
+{
+    height: 40px;
+    width: 30px; 
+}
+.work{
+    width: 400px;
+}
